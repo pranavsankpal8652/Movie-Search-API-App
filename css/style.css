@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+main{
+    width: 1300px;
+    padding: 40px;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 20px;
+}
+header .title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 22px;
+}
+input{
+    font-size: 20px;
+    width: 84%;
+    padding:12px 8px;
+    box-shadow: 5px 5px 0px 0px #749FD0;
+    border-radius: 10px;
+    outline: none;
+}
+.movies{
+    padding: 50px 0px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+.movies>div{
+    flex-basis: 23%;
+}
+img{
+    width: 100%;
+}
+.info{
+    padding: 15px 5px;
+    font-size: 17px;
+    display: flex ;
+    justify-content: space-between;
+    width: 100%;
+    background: yellow;
+    color: brown
+}
+h2{
+    color: white;
+}
+.loader h1{
+    color: white;
+    text-align: center;
+}
